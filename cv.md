@@ -50,4 +50,17 @@ https://www.udemy.com/course/the-web-developer-bootcamp/
 - Currently - I am taking a 4-month intensive English language Upper-Intermediate Level course at LTD “International House (IH) Tbilisi”.
 -  P.S. I practice my language skills everywhere I can. 
   Plus, I have a foreigner teacher at “International House Tbilisi”.
+  
+## Experience 
+
+-	Here is my profile on Khanacademy:  
+[https://www.khanacademy.org](https://www.khanacademy.org/profile/marimarik/projects) 
+-	Here is my profile on Codewars:  
+[https://www.codewars.com](https://www.codewars.com/users/Mari-Am)
+-	Here is my profile on Codehs:
+[https://www.codehs.com/](https://codehs.com/student/3360716/section/305886/assignments) 
+-	Also, I`ve done some exercises and coding tests online on the web sites: 
+[https://www.w3schools.com](https://www.w3schools.com/) 
+[https://www.freecodecamp.org](https://www.freecodecamp.org/) 
+-	I`ve a well written (85% mark) Final Coding Test in GITA final exam.    
 
