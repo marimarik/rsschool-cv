@@ -15,7 +15,7 @@
         <div class="two-columns">
             <div class="left-column">
                 <header>
-                    <img src="./myphoto..jpg" alt="My Photo" width="210">
+                    <img src="./myphoto.jpg" alt="My Photo" width="210">
                     <h1>Mari Kipshidze</h1>
 
                 </header>
@@ -24,14 +24,14 @@
 
                     <section class="contact-info">
                         <h2>Contact Info</h2>
-                        <p class="contact-name" alt="phone">Mobile: </p>
+                        <p class="contact-name">Mobile: </p>
                         <p class="mobile">577 95 58 12</p>
-                        <p class="contact-name" alt="email">E-mail:</p>
+                        <p class="contact-name">E-mail:</p>
                         <p class="contact-name"><a href="mailto:m.kipshidze@sangu.edu.ge">m.kipshidze@sangu.edu.ge</a>
                         </p>
-                        <p class="contact-name" alt="my github">GitHub:</p>
+                        <p class="contact-name">GitHub:</p>
                         <p class="contact-name"><a href="https://github.com/marimarik">marimarik</a></p>
-                        <p class="contact-name" alt="my discord">Discord:</p>
+                        <p class="contact-name">Discord:</p>
                         <p class="contact-name"><a href="https://discord.com/">Mari-ami#5378</a></p>
 
                     </section>
@@ -153,11 +153,11 @@
                     <span class="code">var</span> total1 = <span class="code-string">''</span>;
                     <span class="code">var</span> total2 = <span class="code-string">''</span>;;
                     <span class="code">var</span> sum = <span class="code-number">0</span>;
-                    <span class="code">for</span> (<span class="code">let</span> i = <span class="code-number">0</span>; i < x.length; i++) {
+                    <span class="code">for</span> (<span class="code">let</span> i = <span class="code-number">0</span>; i &lt; x.length; i++) {
                         total1 += x.charCodeAt(i);
                     }
                     total2 = total1.replace(<span class="code-number">/7/g, "1"</span>);
-                    for (let i = <span class="code-number">0</span>; i < total1.length; i++) {
+                    for (let i = <span class="code-number">0</span>; i &lt; total1.length; i++) {
                         sum += total1[i] - total2[i];
                     }
                     <span class="code">return</span> sum;
@@ -169,18 +169,19 @@
                 </section>
             </main>
         </div>
+    </div>
 
-        <footer>
-            <a class="my-github" href="https://github.com/marimarik">
-                <img class="github-logo" src="./icons/github-circle.png" alt="Github Logo" width="65" height="35">
+    <footer>
+        <a class="my-github" href="https://github.com/marimarik">
+            <img class="github-logo" src="./github-circle.png" alt="Github Logo" width="65" height="35">
 
-            </a>
-            <p>© 04/2022</p>
-            <a class="rs-logo" href="https://rs.school/">
-                <img src="./icons/rs_school.png" alt="Rsschool Logo" width="79" height="35">
-            </a>
+        </a>
+        <p>© 04/2022</p>
+        <a class="rs-logo" href="https://rs.school/">
+            <img src="./rs_school.png" alt="Rsschool Logo" width="79" height="35">
+        </a>
 
-        </footer>
+    </footer>
 
 
 </body>
