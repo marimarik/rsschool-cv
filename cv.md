@@ -13,14 +13,16 @@
 
 ## Summary 
 
-&nbsp;&nbsp;&nbsp;I am interested in web development. My wish is to gain new knowledge and skills to solve software issues quickly and efficiently.
-&nbsp;&nbsp;&nbsp;For me it is important to have a quiet, friendly environment. My strengths are that I am hard working, responsible, problem-solving and a team player. I am a careful listener and a fast learner.
-&nbsp;&nbsp;&nbsp;My goal is to enter the international IT market and to gain appropriate experience in Frond-End development starting as a Junior Developer. Currently I am following the Rolling Scopes Training Program and at the end of this course I hope to have an opportunity to join EPAM team. 
+I am interested in web development. My wish is to gain new knowledge and skills to solve software issues quickly and efficiently.
+
+For me it is important to have a quiet, friendly environment. My strengths are that I am hard working, responsible, problem-solving and a team player. I am a careful listener and a fast learner.
+
+My goal is to enter the international IT market and to gain appropriate experience in Frond-End development starting as a Junior Developer. Currently I am following the Rolling Scopes Training Program and at the end of this course I hope to have an opportunity to join EPAM team. 
 
 
 ## Education 
 
-&nbsp;&nbsp;&nbsp;I graduated from St. Andrew the First-Called Georgian University and got a Master's Degree in psychology, psycho diagnostics and consulting.
+I graduated from St. Andrew the First-Called Georgian University and got a Master's Degree in psychology, psycho diagnostics and consulting.
 
 
 ## Skills
@@ -63,4 +65,23 @@ https://www.udemy.com/course/the-web-developer-bootcamp/
 [https://www.w3schools.com](https://www.w3schools.com/) 
 [https://www.freecodecamp.org](https://www.freecodecamp.org/) 
 -	I`ve a well written (85% mark) Final Coding Test in GITA final exam.    
+
+## Code examples 
+
+Given a string, turn each character into its ASCII character code and join them together to create a number - let's call this number total1. Then replace any incidence of the number 7 with the number 1, and call this number 'total2'. Then return the difference between the sum of the digits in total1 and total2:
+```js
+function calc(x){
+  var total1 = '';
+  var total2 = '';
+  var sum = 0;
+  for (let i = 0; i < x.length; i++) {
+    total1 += x.charCodeAt(i);
+  }
+  total2 = total1.replace(/7/g, "1");
+  for (let i = 0; i < total1.length; i++) {
+    sum += total1[i] - total2[i];
+  }
+  return sum;
+}
+```
 
